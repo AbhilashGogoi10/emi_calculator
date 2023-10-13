@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&family=Inter:wght@400;600;700&family=Mouse+Memoirs&family=Oswald:wght@200&family=Playfair+Display:wght@700&family=Poppins:wght@500&family=Roboto:wght@100;300;400;500;700&family=Rubik:wght@400;500;700&display=swap');
+
+.App{
+    font-family: poppins;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.title{
+    font-weight: 700;
+   
+
+}
+
+.slider{
+    width: 100%;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tenureContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tenure{
+    height: 60px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: rgb(176, 175, 175);
+    border:none;
+    cursor: pointer;
+    
+}
+
+.selected{
+    background-color: rgb(22, 95, 141);
+    
+}
